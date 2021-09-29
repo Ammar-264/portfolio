@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+.second-sec-Svg svg{
+    width: 100%;
+  /* margin-bottom: 60px; */
+}
+
+
+
+.details h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+}
+.details p{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 50%);
+    
+}
+.skills-sign{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+.details .skills-sign span{
+    color: rgba(0, 0, 0, 48%);
+    text-align: center;
+    margin: 8px 15px;
+   
+
+}
+.details span{
+    color: rgba(0, 0, 0, 50%);
+    margin: 25px 0;
+    font-size: 19px;
+}
+.skills-sign span img{
+    width: 50px;
+   -webkit-text-fill-color: rgba(0, 0, 0, 48%);
+}
+#right-hand{
+    animation-name: rightHand;
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+    animation-duration: 1.5s;
+    
+}
+#shoulder{
+    animation-name: shoulder;
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+    animation-duration: 1.5s;
+}
+#left-hand{
+    animation-name: leftHand;
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+    animation-duration: 1.5s;
+
+}
+
+
+@media (max-width:990px){
+    .details{
+        text-align: center;
+    }
+    .second-sec-Svg{
+        display: none;
+    }
+
+}
+
+@media (max-width:510px) {
+    .details h1{
+        font-size: 45px;
+    }
+    .details p{
+        font-size: 20px;
+    }
+    
+}
+/* @media only screen and (max-width: 990px)  { */
+
+
+
+/* key frames for svg animations============== */
+@keyframes rightHand {
+    
+    0%{
+        transform: rotate(-2deg); 
+    }
+    10%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(-2deg);
+    }
+    30%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(-2deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    60%{ 
+        transform: rotate(-2deg);
+
+    }
+    70%{
+        transform: rotate(0deg);
+
+    }
+    80%{
+        transform: rotate(-2deg);
+
+    }
+    90%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-2deg);
+    }
+    
+}
+@keyframes shoulder {
+    
+    0%{
+        transform: rotate(-2deg); 
+    }
+    10%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(-2deg);
+    }
+    30%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(-2deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    60%{ 
+        transform: rotate(-2deg);
+
+    }
+    70%{
+        transform: rotate(0deg);
+
+    }
+    80%{
+        transform: rotate(-2deg);
+
+    }
+    90%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-2deg);
+    }
+    
+}
+@keyframes leftHand {
+    
+    0%{
+        transform: rotate(0deg); 
+    }
+    10%{
+        transform: rotate(-2deg);
+    }
+    20%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(-2deg);
+    }
+    40%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-2deg);
+    }
+    60%{ 
+        transform: rotate(0deg);
+
+    }
+    70%{
+        transform: rotate(-2deg);
+
+    }
+    80%{
+        transform: rotate(0deg);
+
+    }
+    90%{
+        transform: rotate(-2deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+
+@keyframes face {
+    
+}

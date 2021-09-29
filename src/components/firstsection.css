@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap');
+
+
+
+
+#hand-right{
+ animation-name: hand;
+ animation-duration: .8s;
+ animation-iteration-count: infinite;
+ /* transform-origin: center; */
+    transform-box: fill-box;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+   
+}
+
+#roller-grip{
+    animation-name: grip;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* transform-origin: center; */
+    /* transform-box: fill-box; */
+    
+    animation-direction:alternate;
+}
+#roller-stand{
+    animation-name: stand;
+    animation-timing-function: linear;
+    
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    /* transform-origin: center; */
+       /* transform-box: fill-box; */
+       
+       animation-direction:alternate;
+}
+#roller-color{
+    animation-name: color;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    /* transform-origin: center; */
+    /* transform-box: fill-box; */
+    
+    animation-direction:alternate;
+}
+#roller{
+    animation-name: roller;
+    
+    animation-timing-function: linear;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    /* transform-origin: center; */
+    /* transform-box: fill-box; */
+       
+    animation-direction:alternate;
+}
+#roller-side{
+    animation-name: side;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    /* transform-origin: center; */
+       /* transform-box: fill-box; */
+       animation-timing-function: linear;
+       
+       animation-direction:alternate;
+}
+.svg svg{
+   width: 100%;
+    background-color: #fff;
+    animation-name: svgAnim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes svgAnim {
+    from{
+        transform: translateX(120%);    
+
+    }to{
+        transform: translateX(0%);
+    }
+}
+
+/* svg css end======================================== */
+
+.heading{
+    width: 100%;
+    margin-top: 8vh;
+    animation-name: text;
+    animation-duration: 1s;
+   position: relative;
+    animation-iteration-count: 1;
+    z-index: -2;
+    
+}
+
+@keyframes text {
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(0%);
+    }
+    
+}
+
+.heading h2{
+   
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+    
+}
+
+.heading img{
+   animation-name: hello-hand;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   /* transition: .3s; */
+   animation-direction: alternate;
+   animation-duration: .1s;
+   animation-timing-function: linear;
+     transform-origin: center;
+    position: relative;
+    z-index: -10;
+   
+}
+
+
+.heading p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    position: relative;
+    z-index: -10;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgba(124, 128, 121, 72%);
+}
+.icon-button {
+    margin-bottom: 10px;
+}
+.socialmedia-linkss  {
+    font-size: 2em;
+}
+.socialmedia-linkss a  {
+    color: #fff;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.3rem;
+    line-height: 2.0rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.3rem;
+    margin: 0 5px 10px;
+    transition: .2s ease-in;
+}
+.github i{
+    background-color: #000;
+}
+.facebook i{
+    background-color: #3b5998;
+}
+.instagram i{
+    background: linear-gradient(
+        45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);
+}
+.fiver i{
+    background-color: #1dbf73;
+}
+.upwork i{
+    background-color: #1dbf73;
+}
+.github i:hover,.cebook i:hover,.instagram i:hover,.fiver i:hover,.upwork i:hover{
+    opacity: .5;
+}
+
+.heading .contact-btn a{
+    width: max-content;
+    cursor:pointer;
+    background-color: #55198b;
+    border: 1px solid #55198b;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* letter-spacing: 1px; */
+    /* word-spacing: 9px; */
+    padding: 6px 20px;
+    border-radius:6px ;
+   text-align: center;
+   font-size: 16px;
+   color: white;
+   transition:all .3s ;
+   text-decoration: none;
+}
+
+.heading .contact-btn {
+    
+    margin-top: 26px;
+    display: block;
+    
+}
+.heading .contact-btn:hover {
+    color: #55198b;
+}
+.heading .contact-btn a:hover{
+    background-color: white;
+    color: #55198b;
+}
+/* animation ===============================------------------------- */
+
+@keyframes hand {
+    from{
+        transform: rotateZ(0deg);
+  }to{
+      transform: rotateZ(-15deg);
+  }
+}
+@keyframes grip{
+    from{
+        transform: rotateZ(0deg);
+
+    }to{
+        transform: rotateZ(-7deg);
+    }
+}
+
+@keyframes stand{
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(-7deg);
+    }
+}
+
+@keyframes color{
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(-7deg);
+    }
+}
+
+@keyframes roller{
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(-7deg);
+    }
+}
+
+@keyframes side{
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(-7deg);
+    }
+}
+
+
+@keyframes hello-hand{
+    from{
+        transform: rotate(12deg);
+    }to{
+        transform: rotate(-12deg);
+    }
+}
+
+
+/* media querries============================= */
+ @media only screen and (max-width: 990px)  {
+      /* .svg{
+        display: none;
+     margin-top: 25px;
+    }   */
+    .heading{
+        text-align: center;
+    }
+    .heading h2{
+        font-size: 2.5em;
+    }
+}
+@media only screen and (max-width: 540px){
+  .heading h2{
+      font-size: 2em;
+  }
+    .heading p{
+      font-size: 20px;
+  }
+}

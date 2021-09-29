@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+
+.details h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+.details .progress-bars span{
+  display: block;
+}
+
+.details .progress-bars span progress[value]{
+    -webkit-appearance: none;
+    appearance: none;
+} 
+
+.details .progress-bars span progress[value]::-webkit-progress-bar {
+    background-color: #f3efef;
+  border-radius:  25px;    
+  }
+
+  .details .progress-bars span progress[value]::-webkit-progress-value{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #aaa5ff;
+    
+  }
+
+  .detail .progress-bars span label{
+      color: rgba(0, 0, 0, 60%);
+     
+  }
+
+  .svg img{
+    width: 100%;
+  }
+ 
+
+
+  @media (max-width:510px) {
+    .details h1{
+        font-size: 43px;
+    }
+  }

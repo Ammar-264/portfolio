@@ -1,0 +1,84 @@
+.contactDetail{
+    width: 100%;
+}
+
+.contactDetail h1{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.contactDetail p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+   color: rgba(0, 0, 0, 50%);
+}
+.work{
+    display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap');
+.contactDetail .work p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold !important;
+    color: #000;
+ 
+}
+.contactDetail .location p{
+    color: rgba(0, 0, 0, 80%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon-button {
+    margin-bottom: 10px;
+}
+.socialmedia-linkss  {
+    font-size: 2em;
+}
+.icon-button i {
+    color: #fff;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.3rem;
+    line-height: 2.0rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.3rem;
+    margin: 0 5px 10px;
+    transition: .2s ease-in;
+}
+.location{
+    margin-top: 25px;
+}
+
+.github i{
+    background-color: #000;
+}
+.facebook i{
+    background-color: #3b5998;
+}
+.instagram i{
+    background: linear-gradient(
+        45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);
+}
+.fiver i{
+    background-color: #1dbf73;
+}
+.upwork i{
+    background-color: #1dbf73;
+}
+.github i:hover,.facebook i:hover,.instagram i:hover,.fiver i:hover,.upwork i:hover{
+    opacity: .5;
+}
+
+.contactDetail .work p img{
+
+    width: 24px;
+}
